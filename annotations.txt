@@ -1,0 +1,53 @@
+Intro
+  - Nada a ver com frameworks ou libs como React, Angular, Vue e outros 
+  - Minhas opiniões e conclusões, não necessariamente sou o dono da verdade
+  - Quem ai gosta de live coding? 
+    - Tenho costume de fazer palestras de 30 minutos
+  - VocÊ é dev JavaScript front ou backend? 
+    - você é dev JavaScript 
+    - um jogo que roda no navegador e tem lógica, é o back end 
+    - as rotas de uma API, é o frontend 
+      - frontend tem a ver com o que usuario é exposto, se você fornece uma api, é o backend 
+
+1 - ECMAScript Modules - pode isar import, export, toplevel await etc
+  - brief story of ECMAScript Modules 
+    - Gil tayar
+  - index.html com um monte de import
+  - todos imports vindo do index.js 
+  - import json direto do index.js 
+  - Possibilidade de reutilizar código entre node e browser
+    https://github.com/ErickWendel/lives-aquecimento03-javascript-expert/tree/main/01-esmodules
+  - não precisa mais de window.onload 
+
+  https://stackoverflow.com/questions/17653384/refused-to-execute-inline-script-because-it-violates-the-following-content-secur
+  https://www.youtube.com/live/Z_ZKGX8-lPw?feature=share
+
+2 - Separação de responsabilidades (criar pastinhas)
+  - JS não é bagunça
+  - controller, view, indx 
+  - Injeção de dependencias - facilita testes 
+  - Padrão Factory
+
+3 - Testes unitários + Stubs, Mocks e tecnicas de testes - mock do window - mostrar piramide de testes
+  - vou te mostrar como testar sem instalar nada 
+  - https://github.com/nodejs/node/pull/45608
+  
+4 - Processamento de dados -  Web Streams 
+  - Nem sempre request e response é o ideal 
+  - Consumir informações sob demanda 
+  - Produzir dados sob demanda 
+  - Como ler 10GB de JSON no frontend sem travar a tela
+    - https://youtu.be/-IpRYbL4yMk
+  - Profilling 
+    - https://yonatankra.com/how-to-profile-javascript-performance-in-the-browser/
+    
+5 - Multithreading & Web Assembly
+  - JavaScript suporta multithreading? 
+    - https://www.youtube.com/live/f7MY2OtI7nA?feature=share
+  - Web workers e module workers 
+    - https://www.youtube.com/live/-wXPxJYhZeI?feature=share
+    - Machine learning 
+      - colocar projeto do hands aqui
+  - Processamento de dados na máquina dos outros 
+  https://ffmpegwasm.netlify.app/#demo
+  https://github.com/ffmpegwasm/ffmpeg.wasm

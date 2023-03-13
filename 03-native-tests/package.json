@@ -1,0 +1,18 @@
+{
+  "name": "01-esmodules",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server .",
+    "test": "node test/index.test.js | npx tap-spec",
+    "test:watch": "node --watch test/index.test.js | npx tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^5.0.0"
+  }
+}
